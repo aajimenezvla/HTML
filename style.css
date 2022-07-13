@@ -1,0 +1,21 @@
+body{
+    width: 100%;
+    background-color: darkblue;
+    color: lightblue;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    width: 100%;
+}
+.left-banner{
+    width: 20%;
+    text-align: center;
+}
+.right-banner{
+    width: 50%;
+    flex-direction: column;
+    margin-left: 40px;
+}
