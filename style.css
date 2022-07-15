@@ -1,21 +1,27 @@
 body{
     width: 100%;
-    background-color: darkblue;
+    background-color: black;
     color: lightblue;
-    
 }
 .container{
     display: flex;
     flex-direction: row;
-    padding: 30px;
-    width: 100%;
+    margin: 30px;
+    width: 90%;
 }
 .left-banner{
-    width: 20%;
+    padding-top: 35px;
+    width: 30%;
     text-align: center;
+    background-image: url(./media/madera1.jpg);
+    background-size: cover;
 }
 .right-banner{
     width: 50%;
     flex-direction: column;
-    margin-left: 40px;
+    border-left: 1px solid black;
+    margin-left: 5px;
+    padding: 50px;
+    background-image: url(./media/madera4.jpg);
+    background-size: cover;
 }
