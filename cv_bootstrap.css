@@ -1,0 +1,21 @@
+.container-xl {
+    background-color: blue;
+    padding-top: 60px;
+}
+.center {
+    text-align: center;
+}
+.body {
+    width: 100%;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+@media (max-width: 980px) {
+    .container-xl{
+        padding-top: 20px;
+    }
+}
+
